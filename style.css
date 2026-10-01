@@ -1,0 +1,398 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.stage1{
+    background-color: #70062c;
+    display: flex;
+    justify-content: space-around;
+    font-family:"poppins",sans-serif; 
+    font-size: 15px;
+    color: white;
+    position: relative;
+}
+.stage1 select{
+    background-color: #70062c;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+.media{
+    position: absolute;
+    font-size: 20px;
+   justify-content: space-around;
+}
+.gh{
+    position: relative;
+    font-size: 20px;
+    right: 170px;
+    top: 20px;
+}
+.stage1 a{
+    color: yellow;
+    font-size: 15px;
+}
+.icon{
+    position: relative;
+    color: yellow;
+    justify-content: space-around;
+}
+
+.icon2{
+    color: black;
+    font-size: 20px;
+    margin-right: 10px;
+    color: white;
+}
+.log{
+    width: 90px;
+    gap: 50px;
+    margin-right: 200px;
+}
+.stage2{
+display: flex;
+background-color: #ecbe5e ;
+padding: 20px;
+justify-content: center;
+align-items: center;
+}
+.bot{
+    border-radius: 35px;
+    width: 420px;
+    height: 56px;
+    margin-left: 270px;
+    background-color: #ecbe5e;
+    color: black;
+    font-size: 20px;
+    border: black solid 1px;
+}
+
+.message{
+    position: static;
+    color: yellow;
+    font-size: 20px;
+}
+.on{
+    border-radius: 35px;
+    width: 680px;
+    height: 56px;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    left: -100%;
+    border: black solid 1px;
+}
+button:hover{
+    background-color: #70062c;
+    color: white;
+
+}
+.sera{
+    box-shadow: black 45px;
+    background-color: #ecbe5e;
+    height: 36px;
+    width: 100%;
+    border-radius: 15px;
+    margin-left: -130px;
+
+}
+.search{
+    border-radius: 25px;
+    height: 36px;
+    width: 93%;
+    background-color: #ecbe5e;
+    padding-left: 40px;
+}
+.glass{
+    font-size: 20px;
+    position: relative;
+    left: 8%;
+    top: 4%;
+}
+ hr{
+  border: none;
+  height: 1px;
+  background-color: black;
+}
+.stage3{
+    background-color: #ecbe5e;
+    height: 50px;
+    padding-bottom: 70px;
+}
+.SELL{
+    background-color: #70062c;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 7px;
+}
+.loc-span{
+    position: relative;
+    top: 15px;
+    right: 170px; 
+    font-size: 17px; 
+}
+.nd{
+    padding-left: 27px;
+}
+.te{
+    position: relative;
+    top: 14px;
+    right: 115px;
+    font-size: 17px;
+}
+.call{
+    position: relative;
+    top: 20px;
+    left: 30px;
+    width: 40px;
+}
+.stage3 select{
+    background-color: #ecbe5e;
+    border: none;
+    padding: 5px;
+    
+}
+br{
+    line-height: 2;
+}
+.icon3{
+    color: black;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.stage4{
+    box-sizing: border-box;
+    width: 100%;
+}
+.ret{
+    width: 100%;
+    margin: auto;
+}
+.stage5{
+  padding: 50px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  padding-left: 200px;
+}
+.stage5 h1{
+    padding-bottom: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+.stage5 p{
+    padding-bottom: 15px;
+}
+.paf{
+    color: black;
+}
+.paf:hover{
+    color: #70062c;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.stage5 h2{
+    padding-top: 26px;
+}
+.stage5 p{
+    padding-top: 26px;
+    font-size: 20px;
+}
+.stage5 blockquote{
+    padding-bottom: 20px;
+}
+.stage5 br{
+    line-height: 2;
+    padding: 5px;
+}
+.stock{
+    color: black;
+}
+.stock:hover{
+    color: #70062c;
+}
+.pp{
+    padding-top: 50px;
+}
+.pro{
+    color: black;
+}
+.pro:hover{
+    color: #70062c;
+}
+.fish{
+    color: black;
+}
+.fish:hover{
+    color: #70062c;
+    cursor: pointer;
+}
+.fish2{
+    color: black;
+    text-decoration: none;
+}
+.fish2:hover{
+    color: #70062c;
+    cursor: pointer;
+    text-decoration: underline;
+}   
+.tip{
+    color: black;
+}
+.tip:hover{
+    color: #70062c;
+    cursor: pointer;
+}
+.tre{
+    width: 700px;
+}
+.rop{
+    padding-top: 50px;
+}
+.snap{
+    padding-left: 120px;
+}
+.vegan{
+    border-radius: 10px;
+    transition: 0.5s;
+    padding-top: 35px;
+    width: 450px;
+}
+.vegan:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.afr{
+    position: relative;
+    border-radius: 10px;
+    transition: 0.5s;
+    left: 500px;
+    bottom: 430px;
+}
+.afr:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.move{
+    display: flex;
+}
+.we{
+   position: absolute;
+   left: 750px;
+   color: black;
+   text-decoration: none;
+   transition: 1.5s;
+   font-size: 20px;
+}
+.twe{
+    position: relative;
+    top: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.we:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    transform: scale(1);
+}
+.twe:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    transform: scale(1);
+}
+.stage5 main{
+    position: relative;
+    bottom: 330px;
+}
+.fere{
+    position: relative;
+    top: 50px;
+    padding-left: 550px;
+}
+.gred{
+    height: 40px;
+    width: 950px;
+    padding-left: 10px;
+    font-family: "Roboto" sans-serif;
+    font-size: 15px;
+}
+.you{
+    height: 40px;
+    width: 950px;
+    padding-left: 10px;
+    font-family: "Roboto" sans-serif;
+    font-size: 15px;
+}
+.men{
+    height: 120px;
+    width: 950px;
+    padding-bottom: 80px;
+    padding-left: 10px;
+    font-family: "Roboto" sans-serif;
+    font-size: 15px;
+}
+.tit{
+    border-radius: 25px;
+    height: 45px;
+    width: 200px;
+    background-color: #ffff;
+    font-size: 19px;
+}
+.pp{
+    font-style: italic;
+    font-size: 15px;
+}
+.stage6{
+    display: flex;
+    background-color: #F5F2E9;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+.service{
+    position: relative;
+    padding-left: 100px;
+}
+.feed{
+    position: absolute;
+    padding-left: 700px;
+}
+.comp{
+    position: absolute;
+    padding-left: 1000px;
+}
+.payment{
+    background-color: #F5F2E9;
+    padding-top: 70px;
+}
+.payment img{
+    position: inherit;
+    width: 50px;
+    padding-left: 10px;
+}
+.payment p{
+    position: inherit;
+    top: 300px;
+    right: 500px;
+    padding-left: 10px;
+}
+.copy{
+    position: inherit;
+    display: flex;
+    background-color: #F5F2E9;
+    top: 500px;
+    right: 820px;
+}
+.copy select{
+    position: inherit;
+    margin-left: 870px;
+    border: none;
+    outline: none;
+    background-color: #F5F2E9;
+}
