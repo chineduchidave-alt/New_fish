@@ -436,3 +436,24 @@ mark{
     }
 
 }
+@media screen and (max-width: 600px) {
+   .stage1{
+    position: relative;
+    width: 480px;
+    height: fit-content;
+    text-align: center;
+   }
+   .stage1 h3 ,.icon{
+    position: relative;
+    top: 1px;
+   }
+   .log{
+    position: inherit;
+    right: 30px;
+   }
+   .stage2 input{
+    width: 150px;
+    bottom: auto;
+    left: 20px;
+   }
+}
