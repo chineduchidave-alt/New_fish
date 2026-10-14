@@ -69,9 +69,22 @@ align-items: center;
 }
 
 .message{
-    position: static;
-    color: yellow;
+    color: white;
     font-size: 20px;
+}
+.git{
+    color: white;
+    text-decoration: none;
+}
+.fort{
+    position: fixed;
+    font-size: 25px;
+    text-decoration: none;
+    color: #ffff;
+    border-radius: 20px;
+    border: 3px solid #70062c;
+    background-color: #70062c;
+    left: 30px;
 }
 .on{
     border-radius: 35px;
@@ -401,7 +414,6 @@ mark{
     }
     .stage4 {
         position: relative; 
-        background-color: #ecbe5e;
         top: 3px;
     }
     .regr{
@@ -440,20 +452,76 @@ mark{
    .stage1{
     position: relative;
     width: 480px;
-    height: fit-content;
     text-align: center;
+    white-space: nowrap;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
    }
    .stage1 h3 ,.icon{
     position: relative;
     top: 1px;
    }
    .log{
-    position: inherit;
-    right: 30px;
+    left: 5px;
    }
    .stage2 input{
     width: 150px;
     bottom: auto;
+    margin-right: 200px;
+   }
+   .glass{
+    top: 30px;
     left: 20px;
    }
+   .bot{
+    top: 60px;
+    width: 100px;
+    height: auto;
+    right: 10px;
+   }
+   .on{
+    height: auto;
+    top: 90px;
+    width: 100px;
+    left: 350px;
+   }
+   .stage3{
+    height: 100px;
+    white-space: nowrap;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+   }
+   .venge{
+    position: absolute;
+    top: 190px;
+    left: 10px;
+   }
+   mark{
+    left: 250px;
+   }
+ .men,.you{
+    width: 450px;
+ }
+ form .gred,.tit{
+    width: 450px;
+ }
+ .fere{
+    position: relative;
+    left: 20px;
+ }
+ .stage6{
+    position: relative;
+    left: 1px;
+ }
+ .foer{
+    position: relative;
+    right: 20px;
+ }
+ .feed{
+    position: relative;
+    right: 850px;
+ }
+ .copy select{
+    right: 550px;
+ }
 }
