@@ -462,6 +462,7 @@ mark{
 @media screen and (max-width: 600px) {
        *{
         box-sizing: border-box;
+        overflow-x: hidden;
     }
     .stage1,
     .stage2,
@@ -470,6 +471,9 @@ mark{
     .stage5,
     .stage6{
         max-width: 100%;
+    }
+    img{
+        width: 100%;
     }
    body{
     padding: 0%;
