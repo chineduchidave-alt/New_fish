@@ -461,7 +461,7 @@ mark{
 }
 @media screen and (max-width: 600px) {
        *{
-        box-sizing: border-box;
+        box-sizing: content-box;
         overflow-x: hidden;
     }
     .stage1,
