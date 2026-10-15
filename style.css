@@ -384,6 +384,17 @@ mark{
     background-color: #ecbe5e;
 }
 @media screen and (max-width: 800px) {
+    *{
+        box-sizing: border-box;
+    }
+    .stage1,
+    .stage2,
+    .stage3,
+    .stage4,
+    .stage5,
+    .stage6{
+        max-width: 100%;
+    }
   .log{
     position: relative;
     width: 70px;
@@ -449,6 +460,17 @@ mark{
 
 }
 @media screen and (max-width: 600px) {
+       *{
+        box-sizing: border-box;
+    }
+    .stage1,
+    .stage2,
+    .stage3,
+    .stage4,
+    .stage5,
+    .stage6{
+        max-width: 100%;
+    }
    body{
     padding: 0%;
     overflow-x: hidden;
@@ -470,7 +492,7 @@ mark{
     width: 480px;
     text-align: center;
     white-space: nowrap;
-    overflow: auto;
+    overflow-x: auto;
     -webkit-overflow-scrolling: touch;
    }
    .stage1 h3 ,.icon{
@@ -504,7 +526,7 @@ mark{
    .stage3{
     height: 100px;
     white-space: nowrap;
-    overflow: auto;
+    overflow-x: auto;
     -webkit-overflow-scrolling: touch;
    }
    .venge{
@@ -541,17 +563,3 @@ mark{
     right: 550px;
  }
 }
-/* 
- *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-body{
-    overflow-x: hidden;
-    font-family: "poppins", sans-serif;
-}
-
-/* TOP BANNER - stage1 */
-/*  */
